@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/rem.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <h3>乌云高清壁纸</h3>
+        <span></span>
+    </div>
+    <!-- 本例主要代码 Start ================================ -->
+    <div id="focus" class="focus">
+        <div class="hd">
+            <ul></ul>
+        </div>
+        <div class="bd">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="images/imgs/tb1.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/imgs/tb2.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/imgs/tb3.jpg" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 本例主要代码 End ================================ -->
+
+    <!-- 店铺简介 -->
+    <div class="shop">
+        <div class="photo fl">
+            <img src="./images/imgs/user-pic.png" alt="">
+        </div>
+        <div class="name">
+            <h3>乌云高清壁纸旗舰店</h3>
+            <p>商家好评率：98% 商家信用等级：8</p>
+        </div>
+        <div class="btn">
+            <button>收藏店铺</button>
+            <button>联系商家</button>
+        </div>
+    </div>
+
+    <!-- 店铺描述 -->
+    <div class="display">
+        <li>
+            <div class="shangpin fl">
+                <span>商品与描述相符</span>
+                <span>4.5</span>
+            </div>
+            <div class="pingjia fr">
+                <span>持平</span>
+                <span class="line center-y"></span>
+            </div>
+        </li>
+        <li>
+            <div class="shangpin fl">
+                <span>商品与描述相符</span>
+                <span>4.8</span>
+            </div>
+            <div class="pingjia fr">
+                <span>持平</span>
+                <span class="baifen center-y">2.5%</span>
+            </div>
+        </li>
+        <li>
+            <div class="shangpin fl">
+                <span>商品与描述相符</span>
+                <span>4.8</span>
+            </div>
+            <div class="pingjia fr">
+                <span>持平</span>
+                <span class="baifen center-y">3.1%</span>
+            </div>
+        </li>
+       
+    </div>
+
+    <!-- 所有宝贝 -->
+
+    <div class="baby">
+        <div class="fl w50">
+            <span>全部宝贝Hot</span>
+        </div>
+        <div class="fr w50">
+            <span>所有分类</span>
+        </div>
+    </div>
+
+    <!-- 首页推荐 -->
+    <div class="shoptui">
+        <div class="shop-t">
+            <span class="tuijian">首页推荐</span>
+            <span class="arrow center-y"></span>
+        </div>
+    </div>
+    <div class="shop-b clearfix">
+            <ul>
+                <li class="fl w50">
+                    <div class="content">
+                    <img src="./images/imgs/meinv.png" alt="">
+                    <p>快乐狐狸帽子女韩版潮 大毛球素 色针织帽 加绒保暖毛线帽2726</p>
+                    <p>$9999</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    <script src="js/TouchSlide.1.1.js"></script>
+    <script type="text/javascript">
+        TouchSlide({
+            slideCell: "#focus",
+            titCell: ".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+            mainCell: ".bd ul",
+            effect: "leftLoop",
+            autoPlay: true, //自动播放
+            autoPage: true //自动分页
+        });
+    </script>
+</body>
+
+</html>
